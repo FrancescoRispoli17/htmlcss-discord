@@ -135,8 +135,11 @@ display: block;
 
 
 /*PADDING*/
-.paddingtop30{
+.padding30{
     padding: 30px;
+}
+.padding-section-2{
+    padding: 0 120px 0 180px;
 }
 .paddingright50{
     padding-right: 50px;
