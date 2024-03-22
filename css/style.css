@@ -3,6 +3,7 @@
     margin:0;
     box-sizing: border-box;
 }
+
 /*TAGS*/
 body
 {
@@ -14,10 +15,12 @@ ul{
 
     
 }
-h1{
-    
-    font-size: 60px;
-    
+h1{ 
+    font-size: 60px; 
+}
+h2{
+
+    font-size: 40px;
 }
 li{
     display: inline-block;
@@ -38,13 +41,12 @@ button{
     font-weight: 600;
 }
 
-/* ID*/
 
+/* ID*/
 #logo{
     width: 50%;
     float: center;
 }
-
 #accedi{
     background-color: white;
     border-radius: 20px;
@@ -55,9 +57,14 @@ button{
     border: none;
     float: right;
 }
+#section-one-img{
+display: block;
+ margin-left: auto; 
+ margin-right: auto;
+}
+
+
 /* CLASSI */
-
-
 .container1500{
     max-width: 1500px;
     margin: 0 auto;
@@ -100,9 +107,15 @@ button{
     margin: 15px 0;
 }
 .col60{
-    width: calc(100%/5*3);
-    
-      
+    width: calc(100%/5*3);    
+}
+.col70{
+    width: calc(100%/10*8);   
+}
+.col30{
+    height: 100%;
+    width: calc(100%/10*2); 
+
 }
 .col40{
     width: calc(100%/5*2);
@@ -140,12 +153,23 @@ button{
 .paddingdownload{
     padding: 40px 20% 0 20%;
 }
-
+.padding50{
+    padding: 50px;
+}
+.padding70{
+    padding: 70px;
+}
 
 /*MARGIN*/
 .margin{
     margin: 15px 0;
 }
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+
 /*HEIGHT*/
 .height400{
     height: 400px;
@@ -153,6 +177,7 @@ button{
 .height600{
     height: 600px;
 }
+
 
 /*BACKGROUND COLOR*/
 .bgcolor-azzurro{
@@ -171,6 +196,7 @@ button{
     background-color: #255EE9;
 }
 
+
 /*ALIGN*/
 .align-mid{
     text-align: center;
@@ -181,6 +207,7 @@ button{
 .align-items-center{
     align-items: center;
 }
+
 
 /*COLOR*/
 .white{
