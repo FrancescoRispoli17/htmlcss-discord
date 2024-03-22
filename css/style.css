@@ -3,7 +3,7 @@
     margin:0;
     box-sizing: border-box;
 }
-
+/*TAGS*/
 body
 {
     font-family: Arial, sans-serif;
@@ -14,13 +14,32 @@ ul{
 
     
 }
+h1{
+    
+    font-size: 60px;
+    
+}
 li{
     display: inline-block;
     padding: 0 40px;
     color: white;
     font-weight: 600;
 }
+p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* ID*/
+
 #logo{
     width: 50%;
     float: center;
@@ -38,33 +57,29 @@ li{
 }
 /* CLASSI */
 
-/*BACKGROUND COLOR*/
+
 .container1500{
     max-width: 1500px;
     margin: 0 auto;
 }
 
-.bgcolor-3161E0{
-    background-color: #255EE9;
-}
-.align-items-center{
-    align-items: center;
-}
+
+
 .download{
     background-image: url('../img/jumbo.png');
     background-size: cover;
 }
-.container1200{
-    max-width: 1200px;
+.container900{
+    max-width: 900px;
     margin: 0 auto;
     
 }
 .row{
     display: flex;
+    
 }
-.row1200{
+.row900{
     height: 100%;
-    background-color: rgb(224, 131, 224);
 }
 .row5{
     height: 100%;
@@ -104,23 +119,42 @@ li{
     width: calc(100%/20);
 }
 
+
+
+/*PADDING*/
+.paddingtop30{
+    padding: 30px;
+}
+.paddingright50{
+    padding-right: 50px;
+}
+.padding-top50{
+    padding-top: 50px;
+}
+.padding100{
+    padding: 100px;
+}
+.paddingfoot{
+    padding: 15px 0;
+}
+.paddingdownload{
+    padding: 40px 20% 0 20%;
+}
+
+
+/*MARGIN*/
+.margin{
+    margin: 15px 0;
+}
+/*HEIGHT*/
 .height400{
     height: 400px;
 }
 .height600{
     height: 600px;
 }
-p{
-    padding: 7px;
-    font-size: 20px;
-}
-.align-mid{
-    text-align: center;
-}
-.align-right{
-    text-align: right;
-}
 
+/*BACKGROUND COLOR*/
 .bgcolor-azzurro{
     background-color: rgb(135, 213, 236);
 }
@@ -133,17 +167,27 @@ p{
 .bgcolor-black{
     background-color: rgb(27, 26, 26);
 }
-/*PADDING*/
-.paddingtop30{
-    padding: 30px;
-}
-.paddingright50{
-    padding-right: 50px;
+.bgcolor-3161E0{
+    background-color: #255EE9;
 }
 
-.padding50{
-    padding: 100px;
+/*ALIGN*/
+.align-mid{
+    text-align: center;
 }
-.paddingfoot{
-    padding: 15px 0;
+.align-right{
+    text-align: right;
+}
+.align-items-center{
+    align-items: center;
+}
+
+/*COLOR*/
+.white{
+    color: white;
+}
+
+.space-between{
+    display:flex;
+    justify-content: space-between;
 }
