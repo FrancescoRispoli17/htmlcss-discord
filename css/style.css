@@ -3,9 +3,56 @@
     margin:0;
     box-sizing: border-box;
 }
-.container1800{
-    max-width: 1800px;
+
+body
+{
+    font-family: Arial, sans-serif;
+}
+ul{
+    list-style-type:none;
+    text-align: center;
+
+    
+}
+li{
+    display: inline-block;
+    padding: 0 40px;
+    color: white;
+    font-weight: 600;
+}
+/* ID*/
+#logo{
+    width: 50%;
+    float: center;
+}
+
+#accedi{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #3161E0;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    float: right;
+}
+/* CLASSI */
+
+/*BACKGROUND COLOR*/
+.container1500{
+    max-width: 1500px;
     margin: 0 auto;
+}
+
+.bgcolor-3161E0{
+    background-color: #255EE9;
+}
+.align-items-center{
+    align-items: center;
+}
+.download{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
 }
 .container1200{
     max-width: 1200px;
@@ -73,15 +120,7 @@ p{
 .align-right{
     text-align: right;
 }
-.border-doashed{
-    border:2px dashed black;
-}
-.border-doashed-white{
-    border:2px dashed white;
-}
-.bgcolor-giallo{
-    background-color: rgb(224, 204, 24);
-}
+
 .bgcolor-azzurro{
     background-color: rgb(135, 213, 236);
 }
@@ -94,8 +133,16 @@ p{
 .bgcolor-black{
     background-color: rgb(27, 26, 26);
 }
+/*PADDING*/
+.paddingtop30{
+    padding: 30px;
+}
+.paddingright50{
+    padding-right: 50px;
+}
+
 .padding50{
-    padding: 50px;
+    padding: 100px;
 }
 .paddingfoot{
     padding: 15px 0;
