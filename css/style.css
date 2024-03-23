@@ -9,24 +9,19 @@ body
 {
     font-family: Arial, sans-serif;
 }
+select{
+    color: white;
+    background-color: #23272A;
+    border: none;
+    font-size: 20px;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
 ul{
     list-style-type:none;
-    text-align: center;
-
-    
-}
-h1{ 
-    font-size: 60px; 
-}
-h2{
-
-    font-size: 40px;
-}
-li{
-    display: inline-block;
-    padding: 0 40px;
-    color: white;
-    font-weight: 600;
 }
 p{
     font-weight: 500;
@@ -43,10 +38,6 @@ button{
 
 
 /* ID*/
-#logo{
-    width: 50%;
-    float: center;
-}
 #accedi{
     background-color: white;
     border-radius: 20px;
@@ -57,22 +48,40 @@ button{
     border: none;
     float: right;
 }
-#section-one-img{
-display: block;
- margin-left: auto; 
- margin-right: auto;
+#icona-lingua{
+
+    width: 35px;
+    vertical-align: middle;
+}
+#registrati{
+    background-color: #8EA1E1;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+#social a{
+    font-size: 30px;
+    padding: 30px 45px 0 0;
+}
+#ul-header li{
+    display: inline-block;
+    padding: 0 40px;
+    color: white;
+    font-weight: 600;
 }
 
-
 /* CLASSI */
+.logo{
+    width: 50%;
+}
 .container1500{
     max-width: 1500px;
     margin: 0 auto;
 }
-
-
-
-.download{
+.section1-bg-image{
     background-image: url('../img/jumbo.png');
     background-size: cover;
 }
@@ -81,46 +90,24 @@ display: block;
     margin: 0 auto;
     
 }
+
+.container-section5{
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
 .row{
     display: flex;
     
 }
-.row900{
-    height: 100%;
-}
-.row5{
-    height: 100%;
-    background-color: rgb(5, 131, 42);
-
-}
-.rowfoot{
-    display: flex;
-    gap: 90%;
-    background-color: rgb(117, 226, 103);
-}
 .col20{
     width: calc(100%/5);
-     
-    
-}
-.margin{
-    margin: 15px 0;
 }
 .col60{
     width: calc(100%/5*3);    
 }
-.col70{
-    width: calc(100%/10*8);   
-}
-.col30{
-    height: 100%;
-    width: calc(100%/10*2); 
-
-}
 .col40{
-    width: calc(100%/5*2);
-      
-      
+    width: calc(100%/5*2);      
 }
 .col33{
     width: calc(100%/6*2);
@@ -129,7 +116,11 @@ display: block;
     width: calc(100%/6);  
 }
 .col10{
-    width: calc(100%/20);
+    width: calc(100%/10);
+}
+.ul-footer li{
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 
@@ -138,8 +129,11 @@ display: block;
 .padding30{
     padding: 30px;
 }
-.padding-section-2{
+.padding-section-3{
     padding: 0 120px 0 180px;
+}
+.padding-section-2{
+    padding: 0 180px 0 120px;
 }
 .paddingright50{
     padding-right: 50px;
@@ -150,10 +144,13 @@ display: block;
 .padding100{
     padding: 100px;
 }
-.paddingfoot{
-    padding: 15px 0;
+.padding-top100{
+    padding-top: 100px;
 }
-.paddingdownload{
+.padding-top50-bot100{
+    padding: 50px 0 100px 0;
+}
+.padding-section1-buttons{
     padding: 40px 20% 0 20%;
 }
 .padding50{
@@ -162,42 +159,47 @@ display: block;
 .padding70{
     padding: 70px;
 }
-
-/*MARGIN*/
-.margin{
-    margin: 15px 0;
+.padding-ul-footer{
+    padding-top: 25px;
 }
 
+
+/*MARGIN*/
 .margin-top-30{
     margin-top: 30px;
 }
-
-
-/*HEIGHT*/
-.height400{
-    height: 400px;
-}
-.height600{
-    height: 600px;
+.img-center{
+    display: block;
+     margin-left: auto; 
+     margin-right: auto;
 }
 
 
 /*BACKGROUND COLOR*/
-.bgcolor-azzurro{
-    background-color: rgb(135, 213, 236);
-}
-.bgcolor-pink{
-    background-color: pink;
-}
 .bgcolor-gray{
-    background-color: gray;
+    background-color: #f6f6f6;
 }
 .bgcolor-black{
-    background-color: rgb(27, 26, 26);
+    background-color: black;
 }
-.bgcolor-3161E0{
+.bgcolor-255EE9{
     background-color: #255EE9;
 }
+.bgcolor-8EA1E1{
+    background-color: #8EA1E1;
+}
+
+.bgcolor-23272A{
+    background-color: #23272A;
+}
+
+
+/*BACKGROUND IMG*/
+.star{
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+}
+
 
 
 /*ALIGN*/
@@ -216,8 +218,29 @@ display: block;
 .white{
     color: white;
 }
+.light-viola{
+    color:#667BC0;
+}
 
+
+/*FONT SIZE*/
+.font-size60{
+    font-size: 60px;
+}
+
+.font-size40{
+    font-size: 40px;
+}
+
+
+/*FONT WEIGHT*/
+
+.font-weight800{
+
+    font-weight: 800;
+}
 .space-between{
-    display:flex;
+    
     justify-content: space-between;
 }
+
