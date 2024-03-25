@@ -122,6 +122,12 @@ button{
     font-size: 20px;
     margin-top: 20px;
 }
+.wave{
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    height: 100px;
+    opacity: 0.03;
+}
 
 
 
